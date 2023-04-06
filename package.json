@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-redis",
+  "version": "1.0.0",
+  "description": "an application with nodejs and redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrezagolbaba/nodejs-redis.git"
+  },
+  "keywords": [
+    "nodejs",
+    "redis"
+  ],
+  "author": "Mohamadreza golbaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrezagolbaba/nodejs-redis/issues"
+  },
+  "homepage": "https://github.com/Mrezagolbaba/nodejs-redis#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "method-override": "^3.0.0",
+    "redis": "^4.6.5"
+  }
+}
