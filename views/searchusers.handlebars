@@ -1,1 +1,10 @@
-searchuser
+<h1>search user</h1>
+{{#if error}}<span>{{error}}</span>{{/if}}
+<form class="form-inline" action="/user/search" method="POST">
+  <div class="form-group">
+    <input type="text" class="form-control" name="id">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <button type="submit" class="btn btn-primary" value="search">Submit</button>
+
+</form>
